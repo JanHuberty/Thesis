@@ -7,7 +7,6 @@ Survey of 200+ gamers to profile nutrition-related behaviours.
 - Cleaned and validated survey data, handled missingness
 - PCA to reduce dimensionality while retaining variance
 - KMeans segmentation; profiles visualized (e.g., radar charts)
-- Dashboard summaries for stakeholders
 
 ## Quick start
 ```bash
