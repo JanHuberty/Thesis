@@ -1,7 +1,7 @@
 # Nutrition in Gaming – Survey Analytics (Thesis)
 
 Survey of 200+ gamers to profile nutrition-related behaviours.  
-**Stack:** Python (pandas, numpy), scikit-learn (PCA, KMeans), visualization, dashboards.
+**Stack:** Python (pandas, numpy), scikit-learn (PCA, KMeans), visualization.
 
 ## Overview
 - Cleaned and validated survey data, handled missingness
