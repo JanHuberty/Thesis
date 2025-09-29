@@ -2,4 +2,11 @@ retry.count = 3
 retry.delay = 2
 timeout = 20
 accept = ["200..399"]
-exclude = ["https://www.linkedin.com/*","mailto:*"]
+user_agent = "Mozilla/5.0 (compatible; Lychee Link Checker)"
+
+exclude = [
+  "https://www\\.linkedin\\.com/.*",          # LinkedIn blocks bots
+  "mailto:.*",                                # email links
+  "https://img\\.shields\\.io/.*",            # badge CDN can rate-limit
+  "https://github\\.com/.*/actions/workflows/.*"  # workflow/badge links
+]
