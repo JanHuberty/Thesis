@@ -2,7 +2,6 @@
 ![License](https://img.shields.io/github/license/JanHuberty/Thesis)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JanHuberty/Thesis/blob/main/Dissertation_stats%20(3).ipynb)
 
-
 # Nutrition in Gaming – Survey Analytics (Thesis)
 
 Survey of 200+ gamers to profile nutrition-related behaviours.  
