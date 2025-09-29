@@ -1,5 +1,7 @@
 ![Links](https://github.com/JanHuberty/Thesis/actions/workflows/links.yml/badge.svg)
 ![License](https://img.shields.io/github/license/JanHuberty/Thesis)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JanHuberty/Thesis/blob/main/Dissertation_stats%20(3).ipynb)
+
 
 # Nutrition in Gaming – Survey Analytics (Thesis)
 
@@ -20,20 +22,23 @@ source .venv/bin/activate
 # .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-jupyter lab   # or: jupyter notebook
-Minimal `requirements.txt` (if you don’t have one yet):
+jupyter lab  # or: jupyter notebook
 
-*(If you use seaborn/plotly, add them too.)*
+*(If you use seaborn/plotly, make sure they’re listed in `requirements.txt`.)*
 
-## 3.5 Results visuals
-1) **Add file → Upload files** → upload to `docs/`:
+---
+
+## Step 3 — Add Results images (nice portfolio touch)
+
+1) Add file → **Upload files** → upload to **`docs/`**:
    - `docs/radar_clusters.png`
    - `docs/dashboard.png`
-2) In `README.md` add:
+
+2) In README, add below Quick Start:
 ```md
 ## Results
-- PCA retained **X%** of variance in first N components.
-- Chosen clusters: **K = …** (via silhouette/inertia).
+- PCA retained **X%** variance in first **N** components.
+- Clustering: **K = ?** (chosen via silhouette/inertia).
 
 ![Radar clusters](docs/radar_clusters.png)
 ![Dashboard](docs/dashboard.png)
